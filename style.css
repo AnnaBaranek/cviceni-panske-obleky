@@ -48,6 +48,8 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  display: flex;
+  
 }
 
 .product__image {
@@ -58,4 +60,87 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+
+.product__colors {
+  width: 40%;
+  margin-left: 30px;
+}
+
+
+.product__colors p {
+  width: 100%;
+}
+
+.colors {
+  display: flex;
+}
+
+.color {
+  margin: 10px;
+}
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.color-box button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /*Stín*/
+}
+
+
+button.white {
+  background-color: white;
+  filter: blur(1px); 
+}
+
+button.cerna {
+  background-color: black;
+}
+
+button.cervena {
+  background-color: brown;
+}
+
+button.modra {
+  background-color: skyblue;
+  filter: blur(1px); 
+}
+
+.white {
+  margin-left: 0;
+}
+
+.product__order {
+  
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 2rem; 
+  margin-left: 100px;
+}
+
+
+
+
+
+.product__order button {
+  width: 11rem;
+  height: 45px;
+  border: 2px solid pink;
+  border-radius: 30px;
+  background-color:#141518;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 16px;  
+
 }
